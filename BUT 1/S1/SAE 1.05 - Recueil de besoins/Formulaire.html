@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang= "fr">
+    <head>
+        <meta charset= "utf-8">
+        <link rel= "stylesheet" href="Style.css"/>
+       
+        
+        <title>Formulaire</title>
+    </head>
+  
+    <body>
+          <!-- Barre de navigation -->
+<div id='navigation'>
+        <nav class= "barre_de_navigation">
+          
+			<a href="#" class="bouton_4_barres">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</a>
+		 <div class="barre_de_navigation_liens">
+          <ul>
+			  <li><a href="Accueil.html"><strong>Accueil</strong></a>
+              <li><a href="Formulaire.html"><strong>Formulaire</strong></a></li>
+			  <li><a href="Planning.html"><strong>Planning</strong></a></li>
+			  <li><a href="Menu.html"><strong>Menu</strong></a></li>
+			  <li><a href="Apropos.html"><strong>A Propos de Nous</strong></a></li>
+		  </ul
+			 
+            
+         </div>
+      </nav>
+    </div>
+			
+	  <!--Formulaire-->
+	  <div class= "BoitePrincipale">
+		<div class="formulaire">
+		<form>
+		<p><strong>Nom :</strong></p>
+		<input type= "text" placeholder="Tapez votre Nom"  name="nom" /></br>
+		<p><strong>Prénom :</strong></p>
+		<input type= "text" placeholder="Tapez votre Prénom"  name="Prénom" /></br>
+		<p><strong>Numéro de Téléphone :</strong></p>
+		<input type="tel" name="Telephone" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}"required></br>
+		<p><strong>Nombres de Personnes avec vous :</strong></p>
+		<input type= "text"  name="NB personnes" /></br>
+		<p><strong>Vous serez accompagné de combien d'enfants ?</strong></p>
+		
+		<input type="radio" name="enfant" value="0">
+		<label for="0">0</label>
+		<input type="radio" name="enfant" value="1">
+		<label for="1">1</label>
+		<input type="radio" name="enfants" value="2">
+		<label for="2">2</label>
+		<input type="radio" name="enfants" value="3">
+		<label for="3">3</label>
+		<input type="radio" name="enfants" value="4+">
+		<label for="4+">4+</label></br>
+		<p><strong>Avez-vous des allergies ? Si oui, lesquelles ?</strong></p>
+		<input type= "text"  name= "allergie" /></br>
+		<p><strong>Avez-vous un véhicule pour vous déplacez dans Béjaia ?</strong></p>
+		<input type="radio" name="voiture" value="Oui">
+		<label for="Oui">Oui</label>
+		<input type="radio" name="voiture" value="Non">
+		<label for="Non">Non</label></br>
+		<p><strong>Avez-vous besoin d’un hôtel ?</strong></p>
+		<input type="radio" name="hotel" value="Oui">
+		<label for="Oui">Oui</label>
+		<input type="radio" name="hotel" value="Non">
+		<label for="Non">Non</label></br>
+		<p><strong>Voulez-vous qu'on vous propose un moyen de transport de votre domicile à Béjaia ?</strong></p>
+		<input type="radio" name="transport" value="Oui">
+		<label for="Oui">Oui</label>
+		<input type="radio" name="transport" value="Non">
+		<label for="Non">Non</label></br>
+		<p><strong>Si oui, lequel ?</strong></p>
+		<input type="radio" name="moyen de transport" value="Avion">
+		<label for="Avion">Avion</label>
+		<input type="radio" name="moyen de transport" value="Bateau">
+		<label for="Bateau">Bateau</label>
+		<input type="radio" name="moyen de transport" value="Autre">
+		<label for="Autre">Autre</label></br>
+		
+		
+		</br></br>
+        <input type="submit" value="Envoyer"/>
+        </form>
+        </div></div>
+		
+		
+		
+		
+		
