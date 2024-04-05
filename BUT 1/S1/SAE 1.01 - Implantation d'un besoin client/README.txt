@@ -1,5 +1,3 @@
-
-Note finale : 17.65/20
 Le travail a été réalisé sur Jupyter Notebook.
 
 Cette SAÉ faisait partie de la compétence 1 : Réaliser un développement d'application.
