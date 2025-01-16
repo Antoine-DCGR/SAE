@@ -1,0 +1,202 @@
+.department-list {
+  max-width: 600px;
+  margin: 150px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  list-style: none;
+}
+
+
+/* Adjustments for department list */
+
+
+.department-list li {
+  margin-bottom: 10px;
+}
+
+/* Styles for sub-menus */
+.sub-menu {
+  list-style: none;
+  padding: 0;
+  margin-top: 5px;
+  display: none;
+  background-color: rgb(137, 116, 97, 0.7);
+  /* Masquer les sous-menus par défaut */
+
+}
+
+.sub-menu li {
+  margin-bottom: 5px;
+}
+
+.department-list li:hover .sub-menu {
+  display: block;
+}
+
+.survol a {
+  display: block;
+  padding: 10px;
+  color: #293358;
+  text-decoration: none;
+}
+
+.survol a:hover {
+  background-color: #293358;
+  color: #fff;
+  transform: scale(1.05);
+
+}
+
+
+h2 {
+  color: #293358;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: -80px;
+}
+
+/* form {
+max-width: 600px;
+margin: 50px auto;
+padding: 20px;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
+
+h1 {
+text-align: center;
+}
+
+/* label {
+display: block;
+margin-bottom: 10px;
+} */
+
+/* input {
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+box-sizing: border-box;
+}
+
+input[type="submit"] {
+background-color: #293358;
+color: white;
+cursor: pointer;
+}
+
+input[type="submit"]:hover {
+background-color: #2376ad;
+} */
+ 
+  /* .user-row {
+    display: none;
+  }
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  } 
+  
+  .input-container i {
+    margin-right: 10px;
+  }
+  
+  .input-container input {
+    flex: 1; /* Ajuste la largeur de l'input pour remplir l'espace 
+  }
+  .modal-title{
+    margin-left: 50px;
+    font-size: 30px;
+  }
+  .modal-dialog{
+    width: 400px;
+  }*/
+  
+  @media (max-width: 991px) {
+    section{
+        padding: 10rem 3% 2rem;
+    }
+  }
+.modal-content {
+   width: 500px;
+}
+.paragraphe{
+  text-align: center;
+}
+/* Ajout de styles pour le tableau */
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.styled-table th, .styled-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.styled-table th {
+    background-color: #f2f2f2;
+}
+
+/* Styles pour les cellules d'action */
+.action-cell {
+    text-align: center;
+}
+
+.action-cell a {
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    padding: 5px;
+}
+
+.action-cell img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+/* Styles pour le bouton Ajouter */
+.action-cell button {
+    padding: 8px;
+    background-color: #293358;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.listePages {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pagination-link {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0 5px;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.pagination-link.active {
+  background-color: #293358;
+  color: #fff;
+  border-color: #293358;
+}
+
+.pagination-link:hover {
+  background-color: #eee;
+}
+
+.pagination-link.next, .pagination-link.previous {
+  font-weight: bold;
+}
